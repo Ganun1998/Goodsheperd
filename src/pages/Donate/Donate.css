@@ -241,7 +241,7 @@ ul.list-disc li {
 
 /* Active button effect (when clicked) */
 .donate-button:active {
-  background-color: #c97715; /* Slightly darker color on click */
+  background-color: #c97715; 
   transform: translateY(0);
 }
 

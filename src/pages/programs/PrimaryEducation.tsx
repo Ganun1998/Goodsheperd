@@ -95,7 +95,7 @@ const PrimaryEducation = () => {
                 Give children the gift of education and unlock their potential.
               </p>
               <Link to="/donate">
-                <Button className="button-default" size="lg">
+                <Button className="button-default">
                   Donate Now
                 </Button>
               </Link>

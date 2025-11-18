@@ -9,7 +9,7 @@ const SupportUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-      
+
       <main className="flex-grow">
         {/* Header */}
         <section className="bg-primary text-primary-foreground py-16">
@@ -26,7 +26,7 @@ const SupportUs = () => {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center text-accent mb-12">Ways to Give</h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <ScrollAnimation>
                 <div className="bg-card p-8 rounded-lg shadow-lg">
@@ -41,7 +41,7 @@ const SupportUs = () => {
                     directly to supporting our projects and the children we serve.
                   </p>
                   <Link to="/donate">
-                    <Button variant="hero" className="w-full">
+                    <Button className="w-full button-default">
                       Donate Now
                     </Button>
                   </Link>
@@ -70,7 +70,7 @@ const SupportUs = () => {
                     </li>
                   </ul>
                   <Link to="/donate">
-                    <Button variant="default" className="w-full">
+                    <Button className="w-full button-default">
                       Become a Sponsor
                     </Button>
                   </Link>
@@ -141,7 +141,7 @@ const SupportUs = () => {
                 Your support creates lasting change in the lives of vulnerable children.
               </p>
               <Link to="/donate">
-                <Button variant="hero" size="lg">
+                <Button className="w-full button-default">
                   Donate Now
                 </Button>
               </Link>

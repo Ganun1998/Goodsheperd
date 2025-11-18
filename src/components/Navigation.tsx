@@ -9,7 +9,7 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isProgramsOpen, setIsProgramsOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
-  const location = useLocation();
+  const { pathname } = useLocation(); // destructure pathname
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -17,7 +17,8 @@ const Navigation = () => {
     { name: "Contact", path: "/contact" },
   ];
 
-  const isActive = (path) => location.pathname === path;
+  // Added type annotation for path
+  const isActive = (path: string): boolean => pathname === path;
 
   return (
     <>
@@ -46,15 +47,14 @@ const Navigation = () => {
             <div className="desktop-nav">
               <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
 
-             
-              {/* About Us Dropdown */}
+              {/* About Dropdown */}
               <div
                 className="dropdown"
                 onMouseEnter={() => setIsAboutOpen(true)}
                 onMouseLeave={() => setIsAboutOpen(false)}
               >
                 <button className="dropdown-button">
-                          About Us
+                  About Us
                   <svg className="dropdown-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -72,7 +72,7 @@ const Navigation = () => {
                 )}
               </div>
 
-               {/* Programs Dropdown */}
+              {/* Programs Dropdown */}
               <div
                 className="dropdown"
                 onMouseEnter={() => setIsProgramsOpen(true)}
@@ -96,7 +96,6 @@ const Navigation = () => {
                 )}
               </div>
 
-
               {navLinks.slice(1).map((link) => (
                 <Link
                   key={link.path}
@@ -106,8 +105,10 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ))}
+
+              {/* Desktop Donate Button */}
               <Link to="/donate">
-                <Button className="navbar-button" size="sm">Donate</Button>
+                <Button className="navbar-button">Donate</Button>
               </Link>
             </div>
 
@@ -131,13 +132,14 @@ const Navigation = () => {
               >
                 Home
               </Link>
+
+              {/* Mobile Programs */}
               <div className="mobile-dropdown">
                 <div className="dropdown-title" onClick={() => setIsProgramsOpen(!isProgramsOpen)}>
                   Programs
                 </div>
                 {isProgramsOpen && (
                   <div className="mobile-dropdown-menu">
-                    <Link to="/programs" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>All Programs</Link>
                     <Link to="/programs/daily-feeding" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Daily Feeding</Link>
                     <Link to="/programs/primary-education" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Primary Education</Link>
                     <Link to="/programs/medical-clinic" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Medical Clinic</Link>
@@ -148,7 +150,7 @@ const Navigation = () => {
                 )}
               </div>
 
-              {/* About Us Dropdown for Mobile */}
+              {/* Mobile About */}
               <div className="mobile-dropdown">
                 <div className="dropdown-title" onClick={() => setIsAboutOpen(!isAboutOpen)}>
                   About Us
@@ -176,8 +178,10 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ))}
+
+              {/* Mobile Donate Button */}
               <Link to="/donate" onClick={() => setIsOpen(false)}>
-                <Button variant="hero" size="sm" className="full-width">
+                <Button className="full-width">
                   Donate Now
                 </Button>
               </Link>

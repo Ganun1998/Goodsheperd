@@ -97,12 +97,12 @@ const GetInvolved = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact">
-                  <Button className="donatess-button" size="lg">
+                  <Button className="donatess-button">
                     Contact Us
                   </Button>
                 </Link>
                 <Link to="/donate">
-                  <Button className="donatess-button" size="lg">
+                  <Button className="donatess-button">
                     Donate Now
                   </Button>
                 </Link>

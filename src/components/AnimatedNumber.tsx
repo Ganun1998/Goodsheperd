@@ -1,17 +1,22 @@
-// src/components/AnimatedNumber.js
-import React, { useEffect, useState } from 'react';
+// src/components/AnimatedNumber.tsx
+import { useEffect, useState } from 'react';
 
-const AnimatedNumber = ({ value, suffix = '' }) => {
+interface AnimatedNumberProps {
+  value: number;
+  suffix?: string;
+}
+
+const AnimatedNumber = ({ value, suffix = '' }: AnimatedNumberProps) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     const targetValue = value;
     const increment = targetValue / 100; // Adjust increment for speed
     let currentCount = 0;
-    
+
     const interval = setInterval(() => {
       currentCount = Math.min(currentCount + increment, targetValue);
-      setCount(Math.round(currentCount)); // Round to nearest integer
+      setCount(Math.round(currentCount));
       if (currentCount >= targetValue) clearInterval(interval);
     }, 70); // Adjust timing for smoother or faster counting
 
@@ -21,7 +26,7 @@ const AnimatedNumber = ({ value, suffix = '' }) => {
   return (
     <h3 className="impact-number">
       {count}
-      {suffix} {/* Render the suffix here */}
+      {suffix}
     </h3>
   );
 };

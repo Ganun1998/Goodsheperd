@@ -1,5 +1,5 @@
 import "./Index.css";
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
@@ -58,18 +58,15 @@ const Index = () => {
     }
   ];
 
-  const scrollRef = useRef(null);
+
+  const scrollRef = useRef<HTMLDivElement | null>(null);
 
   const scrollLeft = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
-    }
+    scrollRef.current?.scrollBy({ left: -300, behavior: 'smooth' });
   };
 
   const scrollRight = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
-    }
+    scrollRef.current?.scrollBy({ left: 300, behavior: 'smooth' });
   };
 
   return (
@@ -100,7 +97,7 @@ const Index = () => {
             <div className="missions-content">
               <h2 className="missions-title">Support Our Mission</h2>
               <p className="missions-text">
-                Every project we undertake is built on sustainability — designed to create long-lasting change rather than temporary fixes. 
+                Every project we undertake is built on sustainability — designed to create long-lasting change rather than temporary fixes.
                 Through your support, we aim to reach more children, inspire hope, and create a world where every child has the opportunity to live, learn, and lead.
               </p>
             </div>
@@ -161,16 +158,12 @@ const Index = () => {
                 {programs.map((program, index) => (
                   <ScrollAnimation key={index}>
                     <div className="program-card">
-                      <img
-                        src={program.image}
-                        alt={program.title}
-                        className="program-image"
-                      />
+                      <img src={program.image} alt={program.title} className="program-image" />
                       <div className="program-content">
                         <h3 className="program-title">{program.title}</h3>
                         <p className="program-text">{program.description}</p>
                         <Link to={program.link}>
-                          <button className="program-button">Learn More</button>
+                          <Button className="button-default w-full">Learn More</Button>
                         </Link>
                       </div>
                     </div>
@@ -179,6 +172,7 @@ const Index = () => {
               </div>
               <button className="arrow arrow-left" onClick={scrollLeft}>◀</button>
               <button className="arrow arrow-right" onClick={scrollRight}>▶</button>
+
             </div>
           </section>
         </ScrollAnimation>

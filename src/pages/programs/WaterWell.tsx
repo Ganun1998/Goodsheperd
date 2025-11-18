@@ -87,7 +87,7 @@ const WaterWell = () => {
                 Give the gift of clean water. Transform lives and save futures.
               </p>
               <Link to="/donate">
-                <Button className="button-default" size="lg">
+                <Button className="button-default">
                   Donate Now
                 </Button>
               </Link>

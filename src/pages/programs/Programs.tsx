@@ -120,7 +120,7 @@ const Projects = () => {
                 Every contribution makes a real difference in the lives of children who need it most.
               </p>
               <Link to="/donate">
-                <Button variant="default" size="lg">
+                <Button className="button-default">
                   Make a Donation
                 </Button>
               </Link>
