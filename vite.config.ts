@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/Good-sheperd/', // <-- Add this for GitHub Pages
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
