@@ -2,7 +2,6 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import ScrollAnimation from "../components/ScrollAnimation";
 import { Link } from "react-router-dom";
-import './programs/Programs.css'; // Import the CSS file
 import feeding_program from "../assets/feeding_program.jpg";
 import education from "../assets/education.jpg";
 import clinic_image from "../assets/clinic_image.jpg";
