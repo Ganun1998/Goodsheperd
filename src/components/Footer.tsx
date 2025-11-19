@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
-import profile2 from "../assets/profile2.png"
+import profile2 from "../assets/profile2.jpg"
 import './components.css'; // Import the CSS file
 
 const Footer = () => {
