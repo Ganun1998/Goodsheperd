@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Good-sheperd/', // <-- Add this for GitHub Pages
+  base: process.env.VITE_BASE_PATH || "/Good-sheperd",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
