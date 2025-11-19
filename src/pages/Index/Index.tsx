@@ -209,8 +209,8 @@ const Index = () => {
                   <Link to="/donate">
                     <button className="donates-button">Donate Now</button>
                   </Link>
-                  <Link to="/programs">
-                    <button className="programs-button">View All Programs</button>
+                  <Link to="/contact">
+                    <button className="programs-button">Contact Us</button>
                   </Link>
                 </div>
               </div>
