@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
 import { Button } from "../../components/ui/button";
 import { Card } from "../../components/ui/card";
-import { CreditCard, Mail, Heart } from "lucide-react";
+import { CreditCard, Heart } from "lucide-react";
 
 const Donate = () => {
   return (
