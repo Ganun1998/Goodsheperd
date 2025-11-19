@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "../components/ui/button";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import profile from "../assets/profile.png"
 import './components.css';
 
 const Navigation = () => {
@@ -41,7 +42,15 @@ const Navigation = () => {
       <nav className="navbar">
         <div className="container">
           <div className="nav-content">
-            <Link to="/" className="logo">Good Shepherd Orphanage</Link>
+            <Link to="/" className="logo">
+              {/* Logo Image */}
+              <img
+                src={profile}
+                alt="Good Shepherd Logo"
+              />
+              {/* Logo Text */}
+              <span className="span">Good Shepherd Orphanage</span>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="desktop-nav">

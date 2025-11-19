@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
+import profile from "../assets/profile.png"
 import './components.css'; // Import the CSS file
 
 const Footer = () => {
@@ -9,12 +10,19 @@ const Footer = () => {
         <div className="grid">
           {/* About Section */}
           <div className="footer-section">
-            <h3 className="footer-header">Good Shepherd Orphanage</h3>
+            {/* Logo image instead of header text */}
+            <img
+              src={profile}
+              alt="Good Shepherd Orphanage Logo"
+              className="footer-logo"
+            />
+
             <p className="footer-text">
               Providing hope and support to children in Jikow, South Sudan through education,
               healthcare, and daily care.
             </p>
           </div>
+
 
           {/* Quick Links */}
           <div className="footer-section">

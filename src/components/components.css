@@ -166,8 +166,20 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  color: blue; 
+  text-decoration: none; 
+}
+
+/* Logo image */
+.logo img {
+  width: 100px; 
+  height: 100px;
+  object-fit: contain;
 }
 
 .desktop-nav {
@@ -400,6 +412,13 @@ a {
 .footer-section {
   flex: 1 1 250px;
   min-width: 220px;
+}
+
+
+.footer-logo {
+  width: 150px; /* adjust as needed */
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-header {

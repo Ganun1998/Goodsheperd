@@ -170,7 +170,7 @@ const Donate = () => {
                   <p className="text-lg">children supported daily</p>
                 </div>
                 <div>
-                  <p className="text-5xl font-bold text-accent mb-2">$360</p>
+                  <p className="text-5xl font-bold text-accent mb-2">$100</p>
                   <p className="text-lg">supports a child for a year</p>
                 </div>
               </div>
