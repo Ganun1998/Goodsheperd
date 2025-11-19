@@ -321,6 +321,10 @@ a {
     display: none; 
   }
 
+  .logo .span {
+    display: none;
+  }
+
   
 .dropdown-icon {
   position: relative;

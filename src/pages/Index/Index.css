@@ -214,10 +214,12 @@
 .program-card {
   min-width: 380px;
   flex: 0 0 auto;
-  background-color: #e9f5ff;
+  background-color: white;
+  border: solid grey;
   border-radius: 8px;
   height: auto;
   transition: transform 0.3s, box-shadow 0.3s;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
 }
 
 .program-card:hover {
@@ -239,11 +241,11 @@
 }
 
 .arrow-left {
-  left: 10px;
+  left: 1px;
 }
 
 .arrow-right {
-  right: 10px;
+  right: 1px;
 }
 
 .program-image {
@@ -281,7 +283,8 @@
     align-items: center;
   }
   .program-card {
-    width: 90%;
+    min-width: 200px;
+    border: none;
   }
 
   .program-image {
@@ -292,18 +295,16 @@
   }
 }
 
-/* Donate Section */
 .donate-section {
   position: relative;
-  padding: 50px 20px;
+  padding: 80px 20px;
   background-image: url(../../assets/hero_2.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: white;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0;
+  /* Remove fixed */
 }
 
 .donate-section::before {
@@ -313,54 +314,133 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.55);
   z-index: 1;
 }
 
-.donate-title {
-  font-size: 28px;
+
+
+.donate-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* LEFT CARD */
+.donation-card {
+  background: white;
+  color: black;
+  padding: 30px;
+  width: 45%;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.donation-title {
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
-.donate-description {
-  font-size: 16px;
-  margin-bottom: 30px;
+/* Amount Buttons */
+.amount-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
+.amount-btn {
+  padding: 12px 0;
+  border-radius: 10px;
+  font-weight: 600;
+  background: #f3f4f6;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.amount-btn:hover {
+  background: #d1d5db;
+}
+
+/* Proceed button */
+.donate-submit {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.donate-submit:hover {
+  background: #218838;
+}
+
+/* RIGHT TEXT */
+.donate-text {
+  width: 50%;
+}
+
+.donate-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.donate-description {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
 .button-group {
   display: flex;
-  justify-content: center;
   gap: 20px;
 }
 
 .donates-button,
 .programs-button {
-  padding: 15px 30px;
+  padding: 14px 30px;
   font-size: 16px;
-  border: none;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  border: 2px solid greenyellow;
+  background: transparent;
   color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.donates-button {
-  background-color: transparent;
-  border: 2px solid greenyellow;
-}
-
-.donates-button:hover {
-  background-color: green;
-}
-
-.programs-button {
-  background-color: transparent;
-  border: 2px solid greenyellow;
-}
-
+.donates-button:hover,
 .programs-button:hover {
   background-color: green;
 }
+
+/* RESPONSIVE — MOBILE */
+@media (max-width: 768px) {
+  .donate-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .donation-card,
+  .donate-text {
+    width: 100%;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+}
+
+
 
 /* Video Section */
 .video-content {

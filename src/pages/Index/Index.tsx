@@ -163,7 +163,7 @@ const Index = () => {
                         <h3 className="program-title">{program.title}</h3>
                         <p className="program-text">{program.description}</p>
                         <Link to={program.link}>
-                          <Button className="button-default w-full">Learn More</Button>
+                          <Button className="program-button">Learn More</Button>
                         </Link>
                       </div>
                     </div>
@@ -179,22 +179,47 @@ const Index = () => {
 
         <ScrollAnimation>
           <section className="donate-section">
-            <div className="container">
-              <h2 className="donate-title">Make a Difference Today</h2>
-              <p className="donate-description">
-                Your support can transform the life of a child in South Sudan.
-                Every contribution helps provide food, education, and hope.
-              </p>
-              <div className="button-group">
+            <div className="donate-wrapper">
+
+              {/* LEFT — DONATION CARD */}
+              <div className="donation-card">
+                <h3 className="donation-title">Choose Amount</h3>
+
+                <div className="amount-grid">
+                  <button className="amount-btn">$25</button>
+                  <button className="amount-btn">$50</button>
+                  <button className="amount-btn">$100</button>
+                </div>
+
                 <Link to="/donate">
-                  <button className="donates-button">Donate Now</button>
-                </Link>
-                <Link to="/programs">
-                  <button className="programs-button outline-button">View All Programs</button>
+                  <button className="donate-submit">Proceed to Donate</button>
                 </Link>
               </div>
+
+              {/* RIGHT — TEXT + BUTTONS */}
+              <div className="donate-text">
+                <h2 className="donate-title">Make a Difference Today</h2>
+
+                <p className="donate-description">
+                  Your support can transform the life of a child in South Sudan.
+                  Every contribution helps provide food, education, and hope.
+                </p>
+
+                <div className="button-group">
+                  <Link to="/donate">
+                    <button className="donates-button">Donate Now</button>
+                  </Link>
+                  <Link to="/programs">
+                    <button className="programs-button">View All Programs</button>
+                  </Link>
+                </div>
+              </div>
+
             </div>
           </section>
+
+
+
         </ScrollAnimation>
 
         <ScrollAnimation>

@@ -70,7 +70,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-header">Follow Us</h3>
             <div className="footer-social">
-              <a href="#" className="footer-social-link" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/p/1CpW48huf5/" className="footer-social-link" aria-label="Facebook">
                 <Facebook size={24} />
               </a>
               <a href="#" className="footer-social-link" aria-label="Twitter">
