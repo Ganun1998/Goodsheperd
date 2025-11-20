@@ -78,7 +78,7 @@ const ClothingDonations = () => {
 
         {/* CTA */}
         <ScrollAnimation>
-          <section className="py-16 text-accent-foreground">
+          <section className="py-16 text-black">
             <div className="container text-center">
               <h2 className="text-3xl font-bold mb-6">Support Clothing Donations</h2>
               <p className="text-xl mb-8 max-w-2xl mx-auto">
@@ -99,6 +99,7 @@ const ClothingDonations = () => {
             </div>
           </section>
         </ScrollAnimation>
+
       </main>
 
       <Footer />

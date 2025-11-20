@@ -159,12 +159,13 @@ body {
 
 /* Text Colors */
 .text-primary-foreground {
-  color: #ffffff; 
+  color: #161616; 
 }
 
-.text-accent {
-  color: #4a5568; 
+.text-accent-foreground {
+  color: #000000; /* black */
 }
+
 
 .text-foreground {
   color: #333333; 
@@ -810,7 +811,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
-  max-height: 35rem;
 }
 
 .min-h-screen {
@@ -874,7 +874,7 @@ body {
 }
 
 .waterwell-text-xl {
-  font-size: 1.25rem; 
+  font-size: 1.125rem; 
 }
 
 .waterwell-text-3xl {
