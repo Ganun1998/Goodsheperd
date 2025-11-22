@@ -63,7 +63,7 @@
   padding: 1rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
-  max-width: 400px; /* prevents stretching */
+  max-width: 400px; 
 }
 
 /* Form inputs */
@@ -115,11 +115,11 @@
 /* Tablets */
 @media (max-width: 992px) {
   .contact-grid {
-    grid-template-columns: 1fr; /* stack earlier */
+    grid-template-columns: 1fr;
   }
 
   .office-hours {
-    max-width: 100%; /* prevents awkward right-side spacing */
+    max-width: 100%; 
   }
 }
 

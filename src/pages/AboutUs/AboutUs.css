@@ -1,23 +1,23 @@
 /* AboutUs.css */
 
 .about-us-hero {
-  background-color: darkblue; /* Hero background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .about-us-hero-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .about-us-hero-text {
-  font-size: 1.25rem; /* Slightly larger text */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 .about-us-container {
@@ -32,24 +32,24 @@
 
 .about-us-section,
 .about-us-mission-vision {
-  padding: 4rem 0; /* Corresponds to py-16 */
+  padding: 4rem 0;
 }
 
 .about-us-content {
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem; /* Responsive padding */
+  padding: 0 1rem;
 }
 
 .about-us-grid {
   display: grid;
-  grid-template-columns: 1fr; /* Default for mobile */
-  gap: 2rem; /* Space between elements */
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
 @media (min-width: 768px) {
   .about-us-grid {
-    grid-template-columns: 1fr 1fr; /* Two columns on larger screens */
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -59,11 +59,11 @@
 }
 
 .about-us-img {
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 500px; /* Fixed height */
-  object-fit: cover; /* Cover the area */
+  height: 500px;
+  object-fit: cover;
 }
 
 .about-us-description {
@@ -73,41 +73,41 @@
 }
 
 .about-us-title {
-  font-size: 2rem; /* Corresponds to text-4xl */
-  font-weight: bold; /* Bold text */
-  color: darkblue; /* Accent color */
-  margin-bottom: 1.5rem; /* Space below title */
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 1.5rem;
 }
 
 .about-us-text {
-  font-size: 1.125rem; /* Corresponds to text-lg */
-  color: #333333; /* Foreground text color */
-  margin-bottom: 1rem; /* Space below paragraphs */
-  line-height: 1.6; /* Improved readability */
+  font-size: 1.125rem;
+  color: #333333;
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 .about-us-card {
-  min-height: 40vh; /* Minimum height of 60% viewport height */
-  background-color: #ffffff; /* Card background color */
-  padding: 2rem; /* Space inside card */
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  min-height: 40vh;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-us-card-title {
-  font-size: 1.5rem; /* Corresponds to text-2xl */
-  font-weight: bold; /* Bold text */
-  color: darkblue; /* Accent color */
-  margin-bottom: 1rem; /* Space below card title */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 1rem;
 }
 
 .about-us-card-text {
-  color: #333333; /* Foreground text color */
-  line-height: 1.6; /* Improved readability */
+  color: #333333;
+  line-height: 1.6;
 }
 
 .icon {
-  vertical-align: middle; /* Align icons with text */
+  vertical-align: middle;
 }
 
 .animate-fade-in {
@@ -128,11 +128,9 @@
   to { transform: translateX(0); opacity: 1; }
 }
 
-
 .about-us-statement {
   background-color: #f9fafb;
   padding: 3rem 1rem;
-  
 }
 
 .about-us-statement .about-us-title {
@@ -164,104 +162,105 @@
 }
 
 .core-values-hero {
-  background-color: darkblue; /* Primary background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .core-values-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .core-values-subtitle {
-  font-size: 1.25rem; /* Slightly larger subtitle text */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 .core-values-description {
-  padding: 4rem 1rem; /* Padding for description section */
+  padding: 4rem 1rem;
 }
 
 .core-values-content {
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .core-values-intro {
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the intro text */
-  text-align: center; /* Center text */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .core-values-intro-text {
-  font-size: 1.125rem; /* Standard text size */
-  color: #333333; /* Text color */
-  line-height: 1.6; /* Improved readability */
+  font-size: 1.125rem;
+  color: #333333;
+  line-height: 1.6;
 }
 
 .core-values-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Default for mobile */
-  gap: 2rem; /* Space between cards */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
 }
 
 @media (min-width: 768px) {
   .core-values-grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .core-values-grid {
-    grid-template-columns: repeat(3, 1fr); /* Three columns on larger screens */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .core-value-card {
-  background-color: #ffffff; /* Card background color */
-  padding: 1.5rem; /* Space inside card */
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
-  transition: box-shadow 0.3s; /* Smooth transition for shadow */
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
 }
 
 .core-value-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hover effect for shadow */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .core-value-icon {
-  background-color: rgba(74, 144, 226, 0.1); /* Light background for icon */
-  width: 64px; /* Icon container width */
-  height: 64px; /* Icon container height */
-  border-radius: 50%; /* Rounded corners */
+  background-color: rgba(74, 144, 226, 0.1);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem; /* Space below icon */
+  margin-bottom: 1rem;
 }
 
 .icon {
-  width: 32px; /* Icon size */
-  height: 32px; /* Icon size */
-  color: darkblue; /* Icon color */
+  width: 32px;
+  height: 32px;
+  color: darkblue;
 }
 
 .core-value-title {
-  font-size: 1.5rem; /* Title size */
-  font-weight: bold; /* Bold text */
-  color: darkblue; /* Accent color */
-  margin-bottom: 0.5rem; /* Space below title */
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 0.5rem;
 }
 
 .core-value-description {
-  color: #333333; /* Text color */
-  line-height: 1.5; /* Improved readability */
+  color: #333333;
+  line-height: 1.5;
 }
+
 
 
 /* our fopunders css */
@@ -277,376 +276,360 @@
 }
 
 .founders-hero {
-  background-color: darkblue; /* Primary background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .founders-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .founders-subtitle {
-  font-size: 1.25rem; /* Slightly larger subtitle text */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 .founders-story {
-  padding: 4rem 1rem; /* Padding for story section */
+  padding: 4rem 1rem;
 }
 
 .founders-content {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center content */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .founders-intro {
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the intro text */
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .founders-story-title {
-  font-size: 2.5rem; /* Title size */
-  font-weight: bold; /* Bold text */
-  color: darkblue; /* Accent color */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 1rem;
 }
 
 .founders-story-card {
-  background-color: #ffffff; /* Card background color */
-  padding: 2rem; /* Space inside card */
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .founders-text {
-  color: #333333; /* Text color */
-  line-height: 1.6; /* Improved readability */
-  margin-bottom: 1rem; /* Space below paragraphs */
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .founders-text-bold {
-  font-weight: bold; /* Bold text for emphasis */
+  font-weight: bold;
 }
 
 
 
 /* our histroy css file */
 
-/* Container for the whole page */
 .history-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Main section styles */
 .history-main {
   flex-grow: 1;
 }
 
-/* Hero section styles */
 .history-hero {
-  background-color: darkblue; /* Primary background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .history-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .history-subtitle {
-  font-size: 1.25rem; /* Subtitle size */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
-/* Main content styles */
 .history-content {
-  padding: 4rem 1rem; /* Padding for content section */
+  padding: 4rem 1rem;
 }
 
 .history-text-container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center content */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Quote section styles */
 .history-quote {
-  background-color: rgba(74, 144, 226, 0.1); /* Light background for quote */
-  padding: 2rem; /* Space inside quote */
-  border-radius: 0.5rem; /* Rounded corners */
-  margin-bottom: 2rem; /* Space below quote */
+  background-color: rgba(74, 144, 226, 0.1);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .history-quote-text {
-  font-size: 1.25rem; /* Font size for quote */
-  color: #333333; /* Text color */
-  font-style: italic; /* Italic text style */
-  line-height: 1.6; /* Improved readability */
+  font-size: 1.25rem;
+  color: #333333;
+  font-style: italic;
+  line-height: 1.6;
 }
 
 .history-quote-author {
-  font-weight: bold; /* Bold author name */
-  color: darkblue; /* Accent color */
-  margin-top: 1rem; /* Space above author name */
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 1rem;
 }
 
-/* Timeline styles */
 .history-timeline {
-  margin-top: 2rem; /* Space above timeline */
+  margin-top: 2rem;
 }
 
 .history-timeline-item {
-  border-left: 4px solid darkblue; /* Accent border */
-  padding-left: 1.5rem; /* Space on the left */
-  margin-bottom: 2rem; /* Space below each timeline item */
+  border-left: 4px solid darkblue;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .history-timeline-title {
-  font-size: 2rem; /* Title size */
-  font-weight: bold; /* Bold title */
-  color: darkblue; /* Accent color */
-  margin-bottom: 0.5rem; /* Space below title */
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 0.5rem;
 }
 
 .history-timeline-text {
-  color: #333333; /* Text color */
-  line-height: 1.6; /* Improved readability */
+  color: #333333;
+  line-height: 1.6;
 }
 
 
 
 /* our partners css file */
 
-/* Container for the whole page */
 .partners-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Main section styles */
 .partners-main {
   flex-grow: 1;
 }
 
-/* Hero section styles */
 .partners-hero {
-  background-color: darkblue; /* Primary background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .partners-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .partners-subtitle {
-  font-size: 1.25rem; /* Subtitle size */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
-/* Main content styles */
 .partners-content {
-  padding: 4rem 1rem; /* Padding for content section */
+  padding: 4rem 1rem;
 }
 
 .partners-text-container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center content */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Description styles */
 .partners-description {
-  font-size: 1.125rem; /* Font size for description */
-  color: #333333; /* Text color */
-  text-align: center; /* Center text */
-  margin-bottom: 2rem; /* Space below description */
+  font-size: 1.125rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-/* Grid styles for partner items */
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Default for mobile */
-  gap: 2rem; /* Space between items */
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
 }
 
 @media (min-width: 768px) {
   .partners-grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .partners-grid {
-    grid-template-columns: repeat(4, 1fr); /* Four columns for larger screens */
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Individual partner item styles */
 .partners-item {
-  text-align: center; /* Center text */
+  text-align: center;
 }
 
 .partners-icon {
-  background-color: rgba(74, 144, 226, 0.1); /* Light background for icon */
-  width: 80px; /* Icon container width */
-  height: 80px; /* Icon container height */
-  border-radius: 50%; /* Rounded corners */
+  background-color: rgba(74, 144, 226, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1rem; /* Center and space below */
+  margin: 0 auto 1rem;
 }
 
 .icon {
-  width: 40px; /* Icon size */
-  height: 40px; /* Icon size */
-  color: darkblue; /* Icon color */
+  width: 40px;
+  height: 40px;
+  color: darkblue;
 }
 
 .partners-item-title {
-  font-size: 1.25rem; /* Title size */
-  font-weight: bold; /* Bold title */
-  color: darkblue; /* Accent color */
-  margin-bottom: 0.5rem; /* Space below title */
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 0.5rem;
 }
 
 .partners-item-description {
-  color: #333333; /* Text color */
-  line-height: 1.5; /* Improved readability */
+  color: #333333;
+  line-height: 1.5;
 }
 
-/* Call to action styles */
 .partners-call-to-action {
   margin-top: 30px;
-  background-color: rgba(255, 165, 0, 0.1); /* Light background for CTA */
-  padding: 2rem; /* Space inside CTA */
-  border-radius: 0.5rem; /* Rounded corners */
-  text-align: center; /* Center text */
+  background-color: rgba(255, 165, 0, 0.1);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
 }
 
 .partners-cta-title {
-  font-size: 2rem; /* CTA title size */
-  font-weight: bold; /* Bold title */
-  color: darkblue; /* Accent color */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 1rem;
 }
 
 .partners-cta-description {
-  font-size: 1.125rem; /* Font size for description */
-  color: #333333; /* Text color */
-  margin-bottom: 1.5rem; /* Space below description */
+  font-size: 1.125rem;
+  color: #333333;
+  margin-bottom: 1.5rem;
 }
 
 .partners-cta-button {
-  display: inline-block; /* Inline block for button */
-  background-color: green; /* Primary button background */
-  color: white; /* Button text color */
-  padding: 0.75rem 1.5rem; /* Padding for button */
-  border-radius: 0.5rem; /* Rounded corners */
-  font-weight: 600; /* Font weight */
-  text-decoration: none; /* Remove underline */
-  transition: background-color 0.3s; /* Smooth transition for hover */
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 .partners-cta-button:hover {
-  background-color: darkblue; /* Darker shade on hover */
+  background-color: darkblue;
 }
+
+
 
 /* our video css file */
 
-/* Container for the whole page */
 .video-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Main section styles */
 .video-main {
   flex-grow: 1;
 }
 
-/* Hero section styles */
 .video-hero {
-  background-color: darkblue; /* Primary background color */
-  color: white; /* Text color */
-  padding: 4rem 1rem; /* Padding for the hero section */
-  text-align: center; /* Center the text */
+  background-color: darkblue;
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 .video-title {
-  font-size: 3rem; /* Large title size */
-  font-weight: bold; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .video-subtitle {
-  font-size: 1.25rem; /* Subtitle size */
-  max-width: 800px; /* Limit width for readability */
-  margin: 0 auto; /* Center the text block */
-  line-height: 1.5; /* Improved readability */
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
-/* Content section styles */
 .video-content {
-  padding: 4rem 1rem; /* Padding for content section */
+  padding: 4rem 1rem;
 }
 
 .video-text-container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center content */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Placeholder for video */
 .video-placeholder {
-  background-color: rgba(74, 144, 226, 0.2); /* Light background for video */
-  border-radius: 0.5rem; /* Rounded corners */
+  background-color: rgba(74, 144, 226, 0.2);
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem; /* Space below video */
+  margin-bottom: 2rem;
 }
 
 .video-embed {
-  width: 100%;  /* Full width */
-  height: 400px; /* Height for video */
-  border: none; /* Remove border */
-  border-radius: 0.5rem; /* Rounded corners */
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 0.5rem;
 }
 
-/* Description styles */
 .video-description {
-  background-color: #ffffff; /* Card background color */
-  padding: 2rem; /* Space inside description */
-  border-radius: 0.5rem; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .video-description-text {
-  color: #333333; /* Text color */
-  line-height: 1.6; /* Improved readability */
+  color: #333333;
+  line-height: 1.6;
 }
 
 
+
 /* our leadership css file */
+
 .board-container {
   display: flex;
   flex-direction: column;
@@ -657,6 +640,7 @@
   flex-grow: 1;
 }
 
+/* ---------- US BOARD HERO ---------- */
 .us-board-hero {
   background-color: darkblue;
   color: white;
@@ -677,6 +661,7 @@
   line-height: 1.5;
 }
 
+/* ---------- US BOARD CONTENT ---------- */
 .us-board-content {
   padding: 4rem 1rem;
 }
@@ -698,41 +683,79 @@
   }
 }
 
-.us-board-member-card {
-  background-color: #ffffff;
+/* ---------- BOARD CARD + GRADIENT HOVER ---------- */
+.board-card {
+  background: #ffffff;
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.us-board-member-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.board-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #00c853, #64dd17);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
 }
 
-.us-board-member-name {
+.board-card:hover::before {
+  opacity: 1;
+}
+
+.board-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.board-card * {
+  position: relative;
+  z-index: 2;
+}
+
+/* ---------- CIRCULAR IMAGE FOR US BOARD ---------- */
+.member-photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ---------- TEXT ---------- */
+.member-name {
   font-size: 1.5rem;
   font-weight: bold;
   color: darkblue;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
-.us-board-member-role {
-  font-size: 1.125rem;
+.member-role {
+  font-size: 1.2rem;
   font-weight: 600;
-  color: #333333;
-  margin-bottom: 1rem;
+  color: #1b1b1b;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
-.us-board-member-bio {
+.member-bio {
+  text-align: center;
   color: #666666;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
+/* ---------- SOUTH SUDAN BOARD HERO ---------- */
 .south-sudan-board-hero {
   background-color: darkblue;
   color: white;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
@@ -749,6 +772,7 @@
   line-height: 1.5;
 }
 
+/* ---------- SOUTH SUDAN CONTENT ---------- */
 .south-sudan-board-content {
   padding: 4rem 1rem;
 }
@@ -770,33 +794,46 @@
   }
 }
 
-.south-sudan-board-member-card {
-  background-color: #ffffff;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s;
+/* ---------- RESPONSIVE FIX FOR SMALL SCREENS ---------- */
+* {
+  box-sizing: border-box;
 }
 
-.south-sudan-board-member-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.south-sudan-board-member-name {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: darkblue;
-  margin-bottom: 0.5rem;
+.us-board-grid,
+.south-sudan-board-grid {
+  width: 100%;
+  overflow-wrap: break-word;
 }
 
-.south-sudan-board-member-role {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #333333;
-  margin-bottom: 1rem;
-}
+@media (max-width: 640px) {
 
-.south-sudan-board-member-bio {
-  color: #666666;
-  line-height: 1.5;
+  .board-card {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .member-photo {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+  }
+
+  .member-name {
+    font-size: 1.25rem;
+  }
+
+  .member-role {
+    font-size: 1rem;
+  }
+
+  .member-bio {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
 }

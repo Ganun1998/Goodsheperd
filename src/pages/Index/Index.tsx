@@ -82,7 +82,7 @@ const Index = () => {
             <div className="mission-content">
               <h2 className="mission-title">We Help children In Need in Jikow, South Sudan</h2>
               <p className="mission-text">
-                Sponsoring a child through Good Shepherd Orphanage Project Inc:
+                Sponsoring a child through Good Shepherd Orphanage Project,Inc:
                 Runs a sponsorship program that connects orphanages with sponsoring families in the United States.
                 Through this program, many of our orphanages can provide at least three meals per day for the children.
                 In addition to nutritious meals, the program also supports access to primary education, immunizations, and clear water.
@@ -149,7 +149,7 @@ const Index = () => {
             <div className="container">
               <h2 className="programs-title">Our Programs</h2>
               <p className="programs-description">
-                The Good Shepherd Orphanage Project Inc in South Sudan is dedicated to building healthy, nourished,
+                The Good Shepherd Orphanage Project,Inc in South Sudan is dedicated to building healthy, nourished,
                 educated, and hope-filled communities in the rural area of Jikow. Our integrated programs
                 serve as strong building blocks that empower both our orphanage and the surrounding
                 communities to achieve sustainable success.
@@ -235,7 +235,7 @@ const Index = () => {
               </div>
               <div className="video-description">
                 <p className="video-description-text">
-                  Experience the impact of Good Shepherd Orphanage through the eyes of the children,
+                  Experience the impact of Good Shepherd Orphanage Project,Inc through the eyes of the children,
                   staff, and community members. Our documentary showcases the daily life at the orphanage,
                   the challenges we face, and the incredible transformation happening in Jikow, South Sudan.
                 </p>

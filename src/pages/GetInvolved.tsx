@@ -87,7 +87,7 @@ const GetInvolved = () => {
 
         {/* CTA */}
         <ScrollAnimation>
-          <section className="cta-section py-16 bg-accent text-accent-foreground">
+          <section className="cta-section py-16 text-accent-foreground">
             <div className="container mx-auto px-4 text-center">
               <h2 className="cta-title">Ready to Make an Impact?</h2>
               <p className="cta-description">

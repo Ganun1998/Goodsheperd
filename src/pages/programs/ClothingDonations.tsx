@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
@@ -7,6 +8,11 @@ import clothing_donate from "../../assets/clothing_donate.jpg";
 import "./programs.css"; // Import the CSS file
 
 const ClothingDonations = () => {
+
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />

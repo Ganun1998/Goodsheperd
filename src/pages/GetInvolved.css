@@ -22,13 +22,13 @@
 }
 
 .header-title {
-  font-size: 2.5rem; /* Change according to your design */
+  font-size: 2.5rem; 
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
 .header-description {
-  font-size: 1.25rem; /* Change according to your design */
+  font-size: 1.25rem; 
   max-width: 48rem;
   margin: 0 auto;
 }
@@ -38,7 +38,7 @@
 }
 
 .opportunities-title {
-  font-size: 2rem; /* Change according to your design */
+  font-size: 2rem; 
   font-weight: bold;
   color: var(--accent);
   margin-bottom: 3rem;
@@ -60,7 +60,7 @@
 }
 
 .icon-container {
-  background-color: rgba(255, 0, 0, 0.1); /* Adjust according to your theme */
+  background-color: rgba(255, 0, 0, 0.1); 
   padding: 1rem;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
@@ -74,7 +74,7 @@
 }
 
 .opportunity-title {
-  font-size: 1.5rem; /* Change according to your design */
+  font-size: 1.5rem; 
   font-weight: bold;
   color: var(--accent);
   margin-bottom: 0.5rem;
@@ -87,7 +87,7 @@
 }
 
 .opportunity-details {
-  font-size: 0.875rem; /* Change according to your design */
+  font-size: 0.875rem; 
   color: var(--muted-foreground);
 }
 
@@ -96,7 +96,7 @@
 }
 
 .events-title {
-  font-size: 2rem; /* Change according to your design */
+  font-size: 2rem; 
   font-weight: bold;
   color: var(--accent);
   margin-bottom: 3rem;
@@ -111,7 +111,7 @@
 }
 
 .event-title {
-  font-size: 1.5rem; /* Change according to your design */
+  font-size: 1.5rem; 
   font-weight: bold;
   color: var(--accent);
   margin-bottom: 0.5rem;
@@ -127,18 +127,18 @@
 }
 
 .cta-section {
-  background-color: var(--accent);
+  background-color: white;
   color: var(--accent-foreground);
 }
 
 .cta-title {
-  font-size: 2rem; /* Change according to your design */
+  font-size: 2rem; 
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
 
 .cta-description {
-  font-size: 1.25rem; /* Change according to your design */
+  font-size: 1.25rem; 
   max-width: 48rem;
   margin: 0 auto 2rem;
 }
@@ -156,7 +156,7 @@
 
 /* Force the grid to be a single column on small screens */
 .opportunities-section .grid {
-  grid-template-columns: 1fr !important; /* full width */
+  grid-template-columns: 1fr !important; 
 }
 
 /* Medium screens */

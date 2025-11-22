@@ -32,20 +32,20 @@
 
 /* Style for the list items in the donation section */
 ul.list-disc li {
-  margin-bottom: 1rem; /* Adjust the value as needed for spacing */
+  margin-bottom: 1rem; 
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 1rem; /* Adjust as necessary */
+  padding: 0 1rem; 
 }
 
 .text-4xl {
-  font-size: 2.5rem; /* Adjust according to your design */
+  font-size: 2.5rem; 
 }
 
 .text-5xl {
-  font-size: 3rem; /* Adjust according to your design */
+  font-size: 3rem; 
 }
 
 .font-bold {
@@ -77,7 +77,7 @@ ul.list-disc li {
 }
 
 .bg-card {
-  background-color: var(--card); /* Customize based on your theme */
+  background-color: var(--card); 
 }
 
 .border-2 {
@@ -85,15 +85,15 @@ ul.list-disc li {
 }
 
 .border-accent {
-  border-color: var(--accent); /* Customize based on your theme */
+  border-color: var(--accent); 
 }
 
 .hover\:bg-accent:hover {
-  background-color: var(--accent); /* Customize based on your theme */
+  background-color: var(--accent);
 }
 
 .hover\:text-accent-foreground:hover {
-  color: var(--accent-foreground); /* Customize based on your theme */
+  color: var(--accent-foreground); 
 }
 
 .p-6 {
@@ -105,16 +105,16 @@ ul.list-disc li {
 }
 
 .text-accent {
-  color: var(--accent); /* Customize based on your theme */
+  color: var(--accent); 
 }
 
 .text-foreground {
   margin-bottom: 10px;
-  color: var(--foreground); /* Customize based on your theme */
+  color: var(--foreground);
 }
 
 .bg-secondary {
-  background-color: var(--secondary); /* Customize based on your theme */
+  background-color: var(--secondary); 
 }
 
 .p-8 {
@@ -122,19 +122,19 @@ ul.list-disc li {
 }
 
 .text-muted-foreground {
-  color: var(--muted-foreground); /* Customize based on your theme */
+  color: var(--muted-foreground); 
 }
 
 .bg-foreground {
-  background-color: var(--foreground); /* Customize based on your theme */
+  background-color: var(--foreground); 
 }
 
 .bg-accent {
-  background-color: var(--accent); /* Customize based on your theme */
+  background-color: var(--accent); 
 }
 
 .text-accent-foreground {
-  color: var(--accent-foreground); /* Customize based on your theme */
+  color: var(--accent-foreground); 
 }
 
 .font-semibold {
@@ -142,23 +142,23 @@ ul.list-disc li {
 }
 
 .text-lg {
-  font-size: 1.125rem; /* Adjust according to your design */
+  font-size: 1.125rem; 
 }
 
 .text-sm {
-  font-size: 0.875rem; /* Adjust according to your design */
+  font-size: 0.875rem;
 }
 
 .text-3xl {
-  font-size: 1.875rem; /* Adjust according to your design */
+  font-size: 1.875rem; 
 }
 
 .text-2xl {
-  font-size: 1.5rem; /* Adjust according to your design */
+  font-size: 1.5rem; 
 }
 
 .text-xl {
-  font-size: 1.25rem; /* Adjust according to your design */
+  font-size: 1.25rem; 
 }
 
 .grid.md\:grid-cols-3 {
@@ -166,15 +166,15 @@ ul.list-disc li {
 }
 
 .bg-accent\/20 {
-  background-color: rgba(255, 0, 0, 0.2); /* Customize based on your theme */
+  background-color: rgba(255, 0, 0, 0.2); 
 }
 
 .bg-foreground\/20 {
-  background-color: rgba(0, 0, 0, 0.2); /* Customize based on your theme */
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 .bg-foreground\/10 {
-  background-color: rgba(0, 0, 0, 0.1); /* Customize based on your theme */
+  background-color: rgba(0, 0, 0, 0.1); 
 }
 
 .mb-12 {
@@ -182,7 +182,7 @@ ul.list-disc li {
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.5s; /* Define your animation */
+  animation: fadeIn 0.5s;
 }
 
 @keyframes fadeIn {
@@ -195,7 +195,7 @@ ul.list-disc li {
 }
 
 .animate-slide-in-right {
-  animation: slideInRight 0.5s; /* Define your animation */
+  animation: slideInRight 0.5s;
 }
 
 @keyframes slideInRight {
@@ -216,7 +216,7 @@ ul.list-disc li {
   font-weight: bold;
   text-align: center;
   padding: 16px 32px;
-  background-color: #f5a623; /* Primary button color */
+  background-color: #f5a623;
   color: #ffffff; /* Text color */
   border: none;
   border-radius: 8px;
@@ -229,7 +229,7 @@ ul.list-disc li {
 
 /* Hover effect */
 .donate-button:hover {
-  background-color: #d88a1a; /* Darker shade for hover */
+  background-color: #d88a1a;
   transform: translateY(-3px);
 }
 

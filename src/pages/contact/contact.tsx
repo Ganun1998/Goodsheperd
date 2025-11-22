@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
@@ -51,6 +51,11 @@ const Contact = () => {
     });
   };
 
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -74,7 +79,7 @@ const Contact = () => {
                         <p className="text-foreground break-words">
                           goodshepherdorphanageproject@gmail.com
                         </p>
-                        <p className="text-muted-foreground text-sm">We'll respond within 24 hours</p>
+                        <p className="text-muted-foreground text-sm">We'll respond soon</p>
                       </div>
                     </div>
 
@@ -94,10 +99,9 @@ const Contact = () => {
                         <MapPin className="w-6 h-6 text-accent" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-lg mb-1">Location</h3>
-                        <p className="text-foreground">Good Shepherd Orphanage Project</p>
+                        <h3 className="font-bold text-lg mb-1">Address</h3>
+                        <p className="text-foreground">4110 S.W. Street, Des Moines, Iowa 50314, USA.</p>
                         <p className="text-foreground">Jikow, South Sudan.</p>
-                        <p className="text-foreground">Des Moines, Iowa 50314, USA.</p>
                       </div>
                     </div>
 

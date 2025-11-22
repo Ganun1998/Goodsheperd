@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Donate.css";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
@@ -7,6 +8,11 @@ import { Card } from "../../components/ui/card";
 import { CreditCard, Heart } from "lucide-react";
 
 const Donate = () => {
+
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -116,7 +122,7 @@ const Donate = () => {
                   <p className="text-foreground">
                     Good Shepherd Orphanage Project is a 501(c)(3) nonprofit organization.
                     Your donation is tax-deductible to the extent allowed by law.
-                    Tax ID: 0746809
+                    Tax ID: 46-0746809
                   </p>
                 </div>
               </ScrollAnimation>

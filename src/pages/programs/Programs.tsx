@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
@@ -6,6 +7,11 @@ import { Link } from "react-router-dom";
 import { Heart, GraduationCap, Stethoscope, Building, Droplet, Shirt } from "lucide-react";
 
 const Projects = () => {
+
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   const projects = [
     {
       icon: Heart,

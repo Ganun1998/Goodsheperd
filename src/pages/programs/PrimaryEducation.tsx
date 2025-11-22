@@ -1,4 +1,5 @@
 
+import { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
@@ -8,6 +9,11 @@ import education_program from "../../assets/education_program.jpg";
 import "./programs.css"; // Import the CSS file
 
 const PrimaryEducation = () => {
+
+  useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />

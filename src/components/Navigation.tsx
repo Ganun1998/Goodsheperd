@@ -29,7 +29,7 @@ const Navigation = () => {
           <div className="flex-container">
             <div className="contact-info">
               <span><i className="fas fa-envelope"></i> goodshepherdorphangeproject@gmail.com</span>
-              <span><i className="fas fa-phone-alt"></i> 515-865-4539</span>
+              <span><i className="fas fa-phone-alt"></i> +1 (515)-865-4539</span>
             </div>
             <Link to="/donate">
               <Button className="infos-button">Donate Now</Button>
@@ -49,7 +49,7 @@ const Navigation = () => {
                 alt="Good Shepherd Logo"
               />
               {/* Logo Text */}
-              <span className="span">Good Shepherd Orphanage</span>
+              <span className="span">Good Shepherd Orphanage Project,Inc</span>
             </Link>
 
             {/* Desktop Navigation */}
