@@ -84,27 +84,27 @@ const ClothingDonations = () => {
 
         {/* CTA */}
         <ScrollAnimation>
-          <section className="py-16 text-black">
-            <div className="container text-center">
-              <h2 className="text-3xl font-bold mb-6">Support Clothing Donations</h2>
-              <p className="text-xl mb-8 max-w-2xl mx-auto">
-                Provide children with dignity, comfort, and the tools they need to succeed.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link to="/donate">
-                  <Button className="button-default">
-                    Donate Now
-                  </Button>
-                </Link>
-                <Link to="/contact">
-                  <Button className="button-outline">
-                    Contact Us About Donations
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </section>
-        </ScrollAnimation>
+  <section className="py-16 text-black">
+    <div className="container text-center">
+      <h2 className="text-3xl font-bold mb-6">Support Clothing Donations</h2>
+      <p className="text-xl mb-8 max-w-2xl mx-auto">
+        Provide children with dignity, comfort, and the tools they need to succeed.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <Link to="/donate">
+          <Button className="button-default">
+            Donate Now
+          </Button>
+        </Link>
+        <Link to="/contact">
+          <Button className="button-outline">
+            Contact Us About Donations
+          </Button>
+        </Link>
+      </div>
+    </div>
+  </section>
+</ScrollAnimation>
 
       </main>
 

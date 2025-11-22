@@ -159,11 +159,11 @@ body {
 
 /* Text Colors */
 .text-primary-foreground {
-  color: #161616; 
+  color: #ffffff; 
 }
 
 .text-accent-foreground {
-  color: #000000; /* black */
+  color: #000000; 
 }
 
 
