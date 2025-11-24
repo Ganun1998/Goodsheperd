@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
 import './AboutUs.css'; // Import the CSS file
 
 const OurFounders = () => {
+
+    useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <div className="founders-container">
       <Navigation />
