@@ -266,6 +266,8 @@
   padding-bottom: 1rem;
   animation: fade-in 0.3s ease-in;
   height: 50vh;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .mobile-nav-link {
