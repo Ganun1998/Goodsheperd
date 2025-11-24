@@ -19,7 +19,7 @@ const CoreValues = () => {
     {
       icon: Heart,
       title: "Respect",
-      description: "We value the South Sudanese culture and way of life. We are inclusive of diverse ideas, perspectives, and backgrounds within Good Shepherd Project, Inc."
+      description: "We value the South Sudanese culture and way of life."
     },
     {
       icon: MessageSquare,

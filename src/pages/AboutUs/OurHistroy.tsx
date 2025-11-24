@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
 import './AboutUs.css'; // Import the CSS file
 
 const OurHistory = () => {
+
+   useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
   return (
     <div className="history-container">
       <Navigation />
@@ -27,7 +32,7 @@ const OurHistory = () => {
                   in South Sudan. These precious children lost their parents – many to war, diseases, and 
                   extreme poverty. Left alone, hungry, and without anyone to care for them, they faced a 
                   future without safety or love. When I saw their suffering, I could not turn away. By God's 
-                  grace, I took them in, offering what little I had – a place to belong, food when possible, 
+                  grace, I took them in, offering what little I had –food when possible, 
                   and comfort in time of pain."
                 </p>
                 <p className="history-quote-author">— Dukan Diew, Founder</p>
@@ -37,7 +42,7 @@ const OurHistory = () => {
                 <div className="history-timeline-item">
                   <h3 className="history-timeline-title">The Beginning</h3>
                   <p className="history-timeline-text">
-                    The Good Shepherd Orphanage was born from a vision shared by Dukan Diew and her late 
+                    The Good Shepherd Orphanage Project,Inc was born from a vision shared by Dukan Diew and her late 
                     husband, Koang Toang. Both survivors of South Sudan's civil war, they understood the 
                     devastating impact of conflict on children and families.
                   </p>
@@ -56,7 +61,7 @@ const OurHistory = () => {
                   <h3 className="history-timeline-title">Growing to Meet the Need</h3>
                   <p className="history-timeline-text">
                     Despite limited resources, the orphanage could not turn away children in need. Today, 
-                    72 children call Good Shepherd home. Each child receives daily meals, education, healthcare, 
+                    72 children are being helped. Each child receives daily meals, education, healthcare, 
                     and most importantly, a loving community that believes in their future.
                   </p>
                 </div>

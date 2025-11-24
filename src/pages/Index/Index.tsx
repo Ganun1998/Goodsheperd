@@ -5,9 +5,7 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import HeroCarousel from "../../components/HeroCarousel";
 import ScrollAnimation from "../../components/ScrollAnimation";
-import AnimatedNumber from "../../components/AnimatedNumber";
 import { Button } from "../../components/ui/button";
-import { Heart, Clock, Star, BookOpen } from "lucide-react";
 import feeding_program from "../../assets/feeding_program.jpg";
 import education from "../../assets/education.jpg";
 import construction_program from "../../assets/construction_program.jpg";
@@ -16,6 +14,8 @@ import clothing_donate from "../../assets/clothing_donate.jpg";
 import mission_1 from "../../assets/mission_1.jpg";
 import clinic_image from "../../assets/clinic_image.jpg";
 import child_mission from "../../assets/child_mission.jpg";
+import video1 from "../../assets/video1.jpg";
+import video2 from "../../assets/video2.jpg";
 
 const Index = () => {
 
@@ -107,42 +107,20 @@ const Index = () => {
 
 
         <ScrollAnimation>
-          <section className="impact-section">
+          <section className="history-section">
             <div className="container">
-              <h2 className="impact-title">Our Impact</h2>
-              <div className="grid">
-                <div className="impact-card">
-                  <div className="icon-container">
-                    <Heart className="icon" />
-                  </div>
-                  <AnimatedNumber value={72} />  {/* Children Fed Daily */}
-                  <p className="impact-text">Children Fed Daily</p>
-                </div>
-                <div className="impact-card">
-                  <div className="icon-container">
-                    <BookOpen className="icon" />
-                  </div>
-                  <AnimatedNumber value={100} suffix="+" />  {/* Students Educated */}
-                  <p className="impact-text">Students Educated</p>
-                </div>
-                <div className="impact-card">
-                  <div className="icon-container">
-                    <Clock className="icon" />
-                  </div>
-                  <AnimatedNumber value={13} />  {/* Years of Service */}
-                  <p className="impact-text">Years of Service</p>
-                </div>
-                <div className="impact-card">
-                  <div className="icon-container">
-                    <Star className="icon" />
-                  </div>
-                  <AnimatedNumber value={98} suffix="%" />  {/* Satisfaction */}
-                  <p className="impact-text">Satisfaction</p>
-                </div>
-              </div>
+              <h2 className="history-title">Dukan Diew, The founder</h2>
+              <p className="history-text">
+                Born in Jikow, South Sudan, I survived war, displacement, and unimaginable loss—from fleeing my village multiple times to living in refugee camps in Ethiopia and Kenya—before finally finding safety in the United States. These experiences shaped my mission: to help children who face the hardships I once endured, giving them hope, opportunity, and a brighter future.
+              </p>
+              <Link to="/about/our-history">
+                  <button className="history-button">Read my full story →</button>
+                </Link>
             </div>
           </section>
         </ScrollAnimation>
+
+
 
         <ScrollAnimation>
           <section className="programs-section">
@@ -217,33 +195,46 @@ const Index = () => {
 
             </div>
           </section>
-
-
-
         </ScrollAnimation>
 
-        <ScrollAnimation>
+         <ScrollAnimation>
           <section className="video-content">
-            <div className="video-text-container">
-              <div className="video-placeholder">
-                <iframe
-                  className="video-embed"
-                  src="https://www.youtube.com/embed/VIDEO_ID"
-                  title="Our Story"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="video-description">
-                <p className="video-description-text">
-                  Experience the impact of Good Shepherd Orphanage Project,Inc through the eyes of the children,
-                  staff, and community members. Our documentary showcases the daily life at the orphanage,
-                  the challenges we face, and the incredible transformation happening in Jikow, South Sudan.
-                </p>
-              </div>
+
+            {/* Row 1: Two images */}
+            <div className="video-row">
+              <a
+                href="https://www.facebook.com/share/v/1A9e39xxEn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="video-image-link"
+              >
+                <img src={video1} alt="Facebook Reel Preview 1" className="video-thumb" />
+              </a>
+
+              <a
+                href="https://www.facebook.com/share/v/1A9e39xxEn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="video-image-link"
+              >
+                <img src={video2} alt="Facebook Reel Preview 2" className="video-thumb" />
+              </a>
             </div>
+
+            {/* Row 2: Description */}
+            <div className="video-description">
+              <p className="video-description-text">
+                Experience the impact of Good Shepherd Orphanage Project, Inc through
+                the eyes of the children, staff, and community members. Our documentary
+                showcases the daily life at the orphanage, the challenges we face, and
+                the incredible transformation happening in Jikow, South Sudan.
+              </p>
+            </div>
+
           </section>
         </ScrollAnimation>
 
+        
       </main>
 
       <Footer />

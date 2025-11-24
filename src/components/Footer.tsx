@@ -28,17 +28,18 @@ const Footer = () => {
             <h3 className="footer-header">Quick Links</h3>
             <ul className="footer-links">
               <li>
-                <Link to="/projects" className="footer-link">Programs</Link>
+                <Link to="/about" className="footer-link">About Us</Link>
               </li>
               <li>
-                <Link to="/get-involved" className="footer-link">Get Involved</Link>
+                <Link to="/projects" className="footer-link">Programs</Link>
               </li>
               <li>
                 <Link to="/contact" className="footer-link">Contact</Link>
               </li>
               <li>
-                <Link to="/about" className="footer-link">About Us</Link>
+                <Link to="/get-involved" className="footer-link">Donate</Link>
               </li>
+              
             </ul>
           </div>
 
@@ -60,7 +61,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-item">
                 <MapPin size={16} className="footer-icon" />
-                <span>Des Moines, Iowa 50314, USA</span>
+                <span>4110 S.W Street, Des Moines, Iowa 50314, USA</span>
               </li>
             </ul>
           </div>
@@ -76,10 +77,6 @@ const Footer = () => {
                 aria-label="Facebook"
               >
                 <Facebook size={24} />
-              </a>
-
-              <a href="#" className="footer-social-link" aria-label="Twitter">
-                <Twitter size={24} />
               </a>
 
               <a href="#" className="footer-social-link" aria-label="Instagram">
@@ -110,7 +107,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <p><strong>
             &copy; {new Date().getFullYear()} Good Shepherd Orphanage Project,Inc</strong>. 
-            Powered By Global Millennium Technology Solutions (GMTS).<strong> All rights reserved.</strong>
+            <strong> All rights reserved.</strong> Designed By GMTS.
           </p>
         </div>
       </div>

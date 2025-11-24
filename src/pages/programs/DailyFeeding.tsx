@@ -40,7 +40,10 @@ const DailyFeeding = () => {
 
                 <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Daily Feeding Program Overview</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
-                  At the Good Shepherd Orphanage in Jikow, South Sudan, the Daily Feeding Program plays a vital role in supporting the health and wellbeing of 72 vulnerable children. Recognizing the critical importance of nutrition in a child's physical and cognitive development, this program provides three nutritious meals each day: breakfast, lunch, and dinner. By prioritizing consistent and balanced nutrition, the orphanage ensures that no child goes to bed hungry.
+                  At the Good Shepherd Orphanage in Jikow, South Sudan, the Daily Feeding Program plays a vital role in supporting the health and wellbeing of 72 vulnerable children. 
+                  Recognizing the critical importance of nutrition in a child's physical and cognitive development, 
+                  this program provides two nutritious meals each day: breakfast and lunch. By prioritizing consistent and balanced nutrition, 
+                  the orphanage ensures that no child goes to bed hungry.
                 </p>
 
                 <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Importance of Nutrition</h3>
@@ -50,7 +53,7 @@ const DailyFeeding = () => {
 
                 <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Structured Meal Times</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
-                  Each day begins with a hearty breakfast, followed by lunch and a nutritious dinner, promoting healthy eating habits and stability for the children.
+                  Each day begins with a hearty breakfast, followed by lunch, promoting healthy eating habits and stability for the children.
                 </p>
 
                 <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Community Involvement</h3>

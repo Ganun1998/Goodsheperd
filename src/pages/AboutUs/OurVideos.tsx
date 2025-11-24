@@ -1,12 +1,14 @@
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ScrollAnimation from "../../components/ScrollAnimation";
+import video1 from "../../assets/video1.jpg"
+import video2 from "../../assets/video2.jpg"
 
 const OurVideo = () => {
   return (
     <div className="video-container">
       <Navigation />
-      
+
       <main className="video-main">
         <section className="video-hero">
           <div className="video-hero-content">
@@ -19,26 +21,41 @@ const OurVideo = () => {
 
         <ScrollAnimation>
           <section className="video-content">
-            <div className="video-text-container">
-              <div className="video-placeholder">
-                {/* Replace the src with your video URL */}
-                <iframe 
-                  className="video-embed"
-                  src="https://www.youtube.com/embed/VIDEO_ID" 
-                  title="Our Story"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="video-description">
-                <p className="video-description-text">
-                  Experience the impact of Good Shepherd Orphanage through the eyes of the children, 
-                  staff, and community members. Our documentary showcases the daily life at the orphanage, 
-                  the challenges we face, and the incredible transformation happening in Jikow, South Sudan.
-                </p>
-              </div>
+
+            {/* Row 1: Two images */}
+            <div className="video-row">
+              <a
+                href="https://www.facebook.com/share/v/1A9e39xxEn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="video-image-link"
+              >
+                <img src={video1} alt="Facebook Reel Preview 1" className="video-thumb" />
+              </a>
+
+              <a
+                href="https://www.facebook.com/share/v/1A9e39xxEn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="video-image-link"
+              >
+                <img src={video2} alt="Facebook Reel Preview 2" className="video-thumb" />
+              </a>
             </div>
+
+            {/* Row 2: Description */}
+            <div className="video-description">
+              <p className="video-description-text">
+                Experience the impact of Good Shepherd Orphanage Project, Inc through
+                the eyes of the children, staff, and community members. Our documentary
+                showcases the daily life at the orphanage, the challenges we face, and
+                the incredible transformation happening in Jikow, South Sudan.
+              </p>
+            </div>
+
           </section>
         </ScrollAnimation>
+
       </main>
 
       <Footer />

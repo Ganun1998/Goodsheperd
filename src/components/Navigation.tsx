@@ -14,7 +14,7 @@ const Navigation = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Get Involved", path: "/get-involved" },
+    {name: "Gallery", path: "/gallery"},
     { name: "Contact", path: "/contact" },
   ];
 
@@ -75,7 +75,7 @@ const Navigation = () => {
                     <Link to="/about/our-founders" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Our Founders</Link>
                     <Link to="/about/our-history" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Our History</Link>
                     <Link to="/about/core-values" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Core Values</Link>
-                    <Link to="/about/our-leadership" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Our Leaders</Link>
+                    <Link to="/about/our-leadership" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Leadership</Link>
                     <Link to="/about/our-partners" className="dropdown-item" onClick={() => setIsAboutOpen(false)}>Our Partners</Link>
                   </div>
                 )}
