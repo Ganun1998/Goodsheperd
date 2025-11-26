@@ -9,13 +9,21 @@ const OurLeadership = () => {
   const usBoardMembers = [
     {
       name: "Dukan Diew",
-      role: "Co-Founder & Executive Director",
+      role: "Founder & CEO",
       image: dukan1,
     },
     {
-      name: "Char Diew",
-      role: "Co-Founder & Board Member",
+      name: "Nyachar Diew",
+      role: "Co-Founder & Communication Specialist",
       image: char2,
+    },
+    {
+      name: "Lori E",
+      role: "Chief Finance Oficer (CFO)",
+    },
+    {
+      name: "Puok Dak",
+      role: "Board Member",
     },
     {
       name: "Nhial Chuol Tut",
@@ -23,17 +31,9 @@ const OurLeadership = () => {
       image: nhial,
     },
     {
-      name: "Lori E",
-      role: "Treasurer",
-    },
-    {
       name: "William Keeper",
       role: "Board Member",
-    },
-    {
-      name: "Puok Dak",
-      role: "Board Member",
-    }
+    }, 
   ];
 
   const southSudanBoardMembers = [

@@ -26,7 +26,7 @@ const OurFounders = () => {
           <section className="founders-story">
             <div className="founders-content">
               <div className="founders-intro">
-                <h2 className="founders-story-title">Dukan's Story</h2>
+                <h2 className="founders-story-title">Dukan Diew's Story</h2>
                 <div className="founders-story-card">
                   <p className="founders-text">
                     I was born in Jikow, which is located in the southern portion of Sudan near the Ethiopian border. Our village was a station for the northern Sudanese Army. For the longest time I thought that Jikow was a huge state because it was the only place I had ever been. Growing up in Jikow was quite different than the United States. We had a lot of small shops, but no running water or electricity. You could make phone calls, but you needed to go into town to do so. Despite this, it was a wonderful place to live. We played on the beach and did anything we could imagine.

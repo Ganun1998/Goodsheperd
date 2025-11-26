@@ -28,7 +28,7 @@ const Navigation = () => {
         <div className="container">
           <div className="flex-container">
             <div className="contact-info">
-              <span><i className="fas fa-envelope"></i> goodshepherdorphangeproject@gmail.com</span>
+              <span><i className="fas fa-envelope"></i> info@goodshepherdorphangeprojectinc.org</span>
               <span><i className="fas fa-phone-alt"></i> +1 (515)-865-4539</span>
             </div>
             <Link to="/donate">
@@ -171,7 +171,7 @@ const Navigation = () => {
                     <Link to="/about/our-founders" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Our Founders</Link>
                     <Link to="/about/our-history" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Our History</Link>
                     <Link to="/about/core-values" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Core Values</Link>
-                    <Link to="/about/our-leadership" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Our Leaders</Link>
+                    <Link to="/about/our-leadership" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Leadership</Link>
                     <Link to="/about/our-partners" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Our Partners</Link>
                   </div>
                 )}

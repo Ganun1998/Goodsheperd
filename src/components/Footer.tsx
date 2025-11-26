@@ -49,7 +49,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li className="footer-contact-item">
                 <Mail size={16} className="footer-icon" />
-                <span> goodshepherdorphangeproject@gmail.com</span>
+                <span> info@goodshepherdorphangeprojectinc.org</span>
               </li>
               <li className="footer-contact-item">
                 <Phone size={16} className="footer-icon" />

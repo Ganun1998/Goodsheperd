@@ -77,7 +77,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-bold text-lg mb-1">Email</h3>
                         <p className="text-foreground break-words">
-                          goodshepherdorphanageproject@gmail.com
+                          info@goodshepherdorphangeprojectinc.org
                         </p>
                         <p className="text-muted-foreground text-sm">We'll respond soon</p>
                       </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Social Media</h3>
-                        <p className="text-foreground">Follow us on Facebook, Twitter, and Instagram</p>
+                        <p className="text-foreground">Follow us on Facebook and Instagram</p>
                       </div>
                     </div>
                   </div>
@@ -120,7 +120,6 @@ const Contact = () => {
                     <h3 className="font-bold text-lg text-accent mb-3">Office Hours</h3>
                     <div className="space-y-2 text-foreground">
                       <p><span className="font-semibold">Monday - Friday:</span> 9:00 AM - 5:00 PM</p>
-                      <p><span className="font-semibold">Saturday-Sunday:</span> Closed</p>
                     </div>
                   </div>
                 </div>
