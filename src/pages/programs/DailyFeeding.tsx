@@ -36,9 +36,9 @@ const DailyFeeding = () => {
           <section className="dailyfeeding-py-16 dailyfeeding-bg-secondary">
             <div className="dailyfeeding-container">
               <div className="dailyfeeding-max-w-4xl mx-auto">
-                <h2 className="dailyfeeding-text-3xl font-bold dailyfeeding-text-accent dailyfeeding-mb-6">About This Program</h2>
+                <h2 className="dailyfeeding-text-3xl font-bold dailyfeeding-text-accent dailyfeeding-mb-6">About The Program</h2>
 
-                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Daily Feeding Program Overview:</h3>
+                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Daily Feeding Program Overview</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
                   At the Good Shepherd, the Daily Feeding Program plays a vital role in supporting the health and wellbeing of 72 vulnerable children. 
                   Recognizing the critical importance of nutrition in a child's physical and cognitive development, 
@@ -46,22 +46,22 @@ const DailyFeeding = () => {
                   the orphanage ensures that no child goes to bed hungry.
                 </p>
 
-                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Importance of Nutrition:</h3>
+                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Importance of Nutrition</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
                   Nutrition is key to growth and development. The Daily Feeding Program provides meals rich in essential vitamins and minerals, including proteins, carbohydrates, and healthy fats.
                 </p>
 
-                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Structured Meal Times:</h3>
+                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Structured Meal Times</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
                   Each day begins with a hearty breakfast, followed by lunch, promoting healthy eating habits and stability for the children.
                 </p>
 
-                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Community Involvement:</h3>
+                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Community Involvement</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
                   Local farmers and suppliers provide fresh ingredients, promoting the local economy while ensuring high-quality meals and fostering community pride.
                 </p>
 
-                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Long-Term Benefits:</h3>
+                <h3 className="dailyfeeding-text-2xl font-bold dailyfeeding-mb-4">Long-Term Benefits</h3>
                 <p className="dailyfeeding-text-lg leading-relaxed">
                   Proper nutrition helps children focus, engage in play, and develop social skills. This program empowers them to break the cycle of poverty and aspire to brighter futures.
                 </p>

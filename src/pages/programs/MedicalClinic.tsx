@@ -36,24 +36,24 @@ const MedicalClinic = () => {
           <section className="medical-py-16 medical-bg-secondary">
             <div className="medical-container">
               <div className="medical-max-w-4xl mx-auto">
-                <h2 className="medical-text-3xl font-bold medical-text-accent medical-mb-6">About This Program</h2>
+                <h2 className="medical-text-3xl font-bold medical-text-accent medical-mb-6">About The Program</h2>
                 <div className="space-y-6 medical-text-foreground">
-                  <h3 className="medical-text-2xl font-bold mb-4">The Importance of Health:</h3>
+                  <h3 className="medical-text-2xl font-bold mb-4">The Importance of Health</h3>
                   <p className="medical-text-lg leading-relaxed">
                     Good health is essential to every child's long-term success and development. In remote and impoverished rural areas, children who fall ill with preventable diseases such as malaria often face life-threatening risks. Even minor ailments can escalate quickly without proper medical care.
                   </p>
 
-                  <h3 className="medical-text-2xl font-bold mb-4">Historical Support from USAID:</h3>
+                  <h3 className="medical-text-2xl font-bold mb-4">Historical Support from USAID</h3>
                   <p className="medical-text-lg leading-relaxed">
                     USAID has provided essential medical supplies, vaccines, and treatment for widespread diseases, significantly reducing mortality rates and improving overall community health.
                   </p>
 
-                  <h3 className="medical-text-2xl font-bold mb-4">Impact of the USAID Program Discontinuation:</h3>
+                  <h3 className="medical-text-2xl font-bold mb-4">Impact of the USAID Program Discontinuation</h3>
                   <p className="medical-text-lg leading-relaxed">
                     Since the program’s discontinuation, children face severe risks due to lack of local medical facilities, forcing families to travel long distances for care.
                   </p>
 
-                  <h3 className="medical-text-2xl font-bold mb-4">The Urgent Need for a Healthcare Facility:</h3>
+                  <h3 className="medical-text-2xl font-bold mb-4">The Urgent Need for a Healthcare Facility</h3>
                   <p className="medical-text-lg leading-relaxed">
                     Building a local healthcare facility will provide immediate medical attention, preventative care, and vaccinations, saving lives and improving community wellbeing.
                   </p>

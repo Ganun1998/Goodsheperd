@@ -183,7 +183,7 @@ const Index = () => {
         <ScrollAnimation>
           <section className="history-section">
             <div className="container">
-              <h2 className="history-title">Dukan Diew, The founder</h2>
+              <h2 className="history-title">Dukan Diew, The Founder</h2>
               <p className="history-text">
                 Born in Jikow, South Sudan, I survived war, displacement, and unimaginable loss—from fleeing my village multiple times to living in refugee camps in Ethiopia and Kenya—before finally finding safety in the United States. These experiences shaped my mission: to help children who face the hardships I once endured, giving them hope, opportunity, and a brighter future.
               </p>

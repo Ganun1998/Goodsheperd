@@ -41,7 +41,7 @@ const PrimaryEducation = () => {
 
                 <div className="space-y-6 primary-text-foreground">
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Current Living Conditions:
+                    Current Living Conditions
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
                     The existing structure is a small hut constructed from mud
@@ -53,7 +53,7 @@ const PrimaryEducation = () => {
                   </p>
 
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Need for Proper Facilities:
+                    Need for Proper Facilities
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
                     There is an immediate need for a suitable building that can
@@ -65,7 +65,7 @@ const PrimaryEducation = () => {
                   </p>
 
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Long-Term Impact:
+                    Long-Term Impact
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
                     Constructing a safe and durable building will significantly

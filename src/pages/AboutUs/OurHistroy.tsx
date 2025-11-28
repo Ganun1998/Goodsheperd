@@ -35,7 +35,7 @@ const OurHistory = () => {
                   grace, I took them in, offering what little I had –food when possible, 
                   and comfort in time of pain."
                 </p>
-                <p className="history-quote-author">— Dukan Diew, Founder</p>
+                <p className="history-quote-author">Dukan Diew, Founder</p>
               </div>
 
               <div className="history-timeline">
