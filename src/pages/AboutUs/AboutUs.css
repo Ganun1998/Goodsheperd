@@ -717,6 +717,7 @@
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .board-card::before {
@@ -760,7 +761,6 @@
   font-weight: bold;
   color: darkblue;
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 .member-role {
@@ -768,11 +768,9 @@
   font-weight: 600;
   color: #1b1b1b;
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 .member-bio {
-  text-align: center;
   color: #666666;
   line-height: 1.6;
 }

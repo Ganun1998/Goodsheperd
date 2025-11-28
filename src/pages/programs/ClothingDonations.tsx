@@ -37,20 +37,20 @@ const ClothingDonations = () => {
             <div className="container">
               <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-6 text-left text-brown">
-                  About This Program
+                  About The Program
                 </h2>
                 <div className="space-y-6 text-foreground text-left">
-                  <h3 className="text-2xl font-bold mb-4">Living Conditions of Orphans</h3>
+                  <h3 className="text-2xl font-bold mb-4">Living Conditions of Orphans:</h3>
                   <p className="text-lg leading-relaxed">
                     Many orphans in our communities are trapped in poverty, lacking access to essential resources. They often do not have proper clothing or footwear, and many attend school without necessary supplies like books, backpacks, and writing materials.
                   </p>
 
-                  <h3 className="text-2xl font-bold mb-4">Digital Divide</h3>
+                  <h3 className="text-2xl font-bold mb-4">Digital Divide:</h3>
                   <p className="text-lg leading-relaxed">
                     As the world becomes increasingly digital, older orphans face unique challenges. Many have never had the opportunity to use a computer, which puts them at a disadvantage academically and hinders overall development.
                   </p>
 
-                  <h3 className="text-2xl font-bold mb-4">Impact of Support</h3>
+                  <h3 className="text-2xl font-bold mb-4">Impact of Support:</h3>
                   <p className="text-lg leading-relaxed">
                     Providing basic necessities like clothing restores dignity and helps children focus on education and personal growth. Every donation creates a ripple effect, transforming their immediate circumstances and long-term potential.
                   </p>
@@ -67,7 +67,7 @@ const ClothingDonations = () => {
               <div className="max-w-4xl mx-auto bg-card p-8 rounded-lg shadow-lg">
                 <h2 className="text-3xl font-bold mb-6 text-left text-brown">What We Need</h2>
                 <div className="space-y-4">
-                  <p className="text-lg font-semibold text-left list-item">Ongoing Needs</p>
+                  <p className="text-lg font-semibold text-left list-item">Ongoing Needs:</p>
                   <ul className="space-y-3 text-foreground list-disc list-inside text-left">
                     <li>Gently used or new clothes and shoes for children and adults</li>
                     <li>Books, backpacks, pens, and pencils</li>

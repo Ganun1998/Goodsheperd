@@ -211,7 +211,12 @@ body {
 
 /* Margin Utilities */
 .mb-6 {
+  margin-top: 0;
   margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+  margin-top: 25px;
 }
 
 .mb-8 {
@@ -395,6 +400,10 @@ body {
 /* Margin Utilities */
 .dailyfeeding-mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.dailyfeeding-mb-4 {
+  margin-top: 30px;
 }
 
 .dailyfeeding-mb-8 {

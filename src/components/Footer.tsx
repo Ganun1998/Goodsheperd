@@ -107,7 +107,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <p><strong>
             &copy; {new Date().getFullYear()} Good Shepherd Orphanage Project,Inc</strong>. 
-            <strong> All rights reserved.</strong> Designed By GMTS.
+            <strong> All rights reserved.</strong> Designed by GMTS.
           </p>
         </div>
       </div>

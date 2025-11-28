@@ -36,15 +36,15 @@ const PrimaryEducation = () => {
             <div className="primary-container">
               <div className="primary-max-w-4xl mx-auto">
                 <h2 className="primary-text-3xl font-bold primary-text-accent primary-mb-6">
-                  About This Program
+                  About The Program
                 </h2>
 
                 <div className="space-y-6 primary-text-foreground">
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Current Living Conditions
+                    Current Living Conditions:
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
-                    The existing structure at the Good Shepherd Orphanage Project,Inc is a small hut constructed from mud
+                    The existing structure is a small hut constructed from mud
                     and sticks. This temporary shelter is severely deteriorating
                     and poses significant safety risks. During rainy seasons, the
                     hut leaks, creating an uncomfortable and unhealthy living
@@ -53,7 +53,7 @@ const PrimaryEducation = () => {
                   </p>
 
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Need for Proper Facilities
+                    Need for Proper Facilities:
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
                     There is an immediate need for a suitable building that can
@@ -65,7 +65,7 @@ const PrimaryEducation = () => {
                   </p>
 
                   <h3 className="primary-text-2xl font-bold mb-4">
-                    Long-Term Impact
+                    Long-Term Impact:
                   </h3>
                   <p className="primary-text-lg leading-relaxed">
                     Constructing a safe and durable building will significantly
