@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-item">
                 <MapPin size={16} className="footer-icon" />
-                <span>4110 S.W Street, Des Moines, Iowa 50314, USA</span>
+                <span>4110 S.W Street, Des Moines, Iowa 50315, USA</span>
               </li>
             </ul>
           </div>
@@ -100,7 +100,7 @@ const Footer = () => {
 
          {/* Added Paragraph Below Article */}
             <p className="footer-legal">
-              Good Sheperd Orphanage Project, Inc is a 501(c)(3) nonprofit organization. 
+              GSOP is a 501(c)(3) nonprofit organization. 
               Tax-Deductible: ID: 46-0746809
             </p>
 

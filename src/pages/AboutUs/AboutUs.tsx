@@ -38,7 +38,7 @@ const AboutUs = () => {
                 <div className="about-us-description">
                   <h1 className="about-us-title">About Us</h1>
                   <p className="about-us-text">
-                    Good Shepherd Orphanage Project, Inc is a registered 501©(3) nonprofit organization founded in 2012 by
+                    Good Shepherd Orphanage Project, Inc is a registered 501(c)(3) nonprofit organization founded in 2012 by
                     Dukan Diew, a South Sudanese refugee and a devoted Christian now living in Des Moines, Iowa.
                     It is located in South Sudan and is dedicated to building healthy, nourished,
                     educated, and hope-filled communities in the rural area of Jikow, South Sudan.

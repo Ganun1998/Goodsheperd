@@ -33,9 +33,8 @@ const OurHistory = () => {
                   extreme poverty. Left alone, hungry, and without anyone to care for them, they faced a 
                   future without safety or love. When I saw their suffering, I could not turn away. By God's 
                   grace, I took them in, offering what little I had –food when possible, 
-                  and comfort in time of pain."
+                  and comfort in time of pain." <span className="history-quote-author">Dukan Diew, Founder</span>
                 </p>
-                <p className="history-quote-author">Dukan Diew, Founder</p>
               </div>
 
               <div className="history-timeline">

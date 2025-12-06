@@ -49,7 +49,7 @@ const Navigation = () => {
                 alt="Good Shepherd Logo"
               />
               {/* Logo Text */}
-              <span className="span">Good Shepherd Orphanage Project,Inc</span>
+              <span className="span">Good Shepherd Orphanage Project, Inc</span>
             </Link>
 
             {/* Desktop Navigation */}

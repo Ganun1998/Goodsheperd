@@ -90,7 +90,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-bold text-lg mb-1">Phone</h3>
                         <p className="text-foreground">+1 (515) 865-4539</p>
-                        <p className="text-muted-foreground text-sm">Mon-Fri, 9am-5pm EST</p>
+                        <p className="text-muted-foreground text-sm">Mon-Fri, 9am-5pm CST</p>
                       </div>
                     </div>
 
@@ -100,7 +100,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-1">Address</h3>
-                        <p className="text-foreground">4110 S.W. Street, Des Moines, Iowa 50314, USA.</p>
+                        <p className="text-foreground">4110 S.W. Street, Des Moines, Iowa 50315, USA.</p>
                         <p className="text-foreground">Jikow, South Sudan.</p>
                       </div>
                     </div>
@@ -170,7 +170,6 @@ const Contact = () => {
           </div>
         </section>
       </main>
-
 
       <Footer />
     </div>
