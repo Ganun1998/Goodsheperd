@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li className="footer-contact-item">
                 <MapPin size={16} className="footer-icon" />
-                <span>4110 S.W Street, Des Moines, Iowa 50315, USA</span>
+                <span>4110 S.W.9th Street, Des Moines, Iowa 50315, USA</span>
               </li>
             </ul>
           </div>
