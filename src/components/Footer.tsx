@@ -31,13 +31,13 @@ const Footer = () => {
                 <Link to="/about" className="footer-link">About Us</Link>
               </li>
               <li>
-                <Link to="/projects" className="footer-link">Programs</Link>
+                <Link to="/programs" className="footer-link">Programs</Link>
               </li>
               <li>
                 <Link to="/contact" className="footer-link">Contact</Link>
               </li>
               <li>
-                <Link to="/get-involved" className="footer-link">Donate</Link>
+                <Link to="/donate" className="footer-link">Donate</Link>
               </li>
               
             </ul>

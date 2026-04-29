@@ -95,6 +95,7 @@ const Navigation = () => {
                 </button>
                 {isProgramsOpen && (
                   <div className="dropdown-menu">
+                    <Link to="/programs" className="dropdown-item" onClick={() => setIsProgramsOpen(false)}>All Programs</Link>
                     <Link to="/programs/daily-feeding" className="dropdown-item" onClick={() => setIsProgramsOpen(false)}>Daily Feeding</Link>
                     <Link to="/programs/primary-education" className="dropdown-item" onClick={() => setIsProgramsOpen(false)}>Primary Education</Link>
                     <Link to="/programs/medical-clinic" className="dropdown-item" onClick={() => setIsProgramsOpen(false)}>Medical Clinic</Link>
@@ -149,6 +150,7 @@ const Navigation = () => {
                 </div>
                 {isProgramsOpen && (
                   <div className="mobile-dropdown-menu">
+                    <Link to="/programs" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>All Programs</Link>
                     <Link to="/programs/daily-feeding" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Daily Feeding</Link>
                     <Link to="/programs/primary-education" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Primary Education</Link>
                     <Link to="/programs/medical-clinic" className="mobile-dropdown-item" onClick={() => setIsOpen(false)}>Medical Clinic</Link>
